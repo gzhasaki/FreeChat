@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/popwindow_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/re_addfriends"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_list_item_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@mipmap/pop_chat"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="添加好友"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_scanner"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/btn_list_item_bg"
+            android:paddingTop="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@mipmap/pop_chat"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="面对疾风"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

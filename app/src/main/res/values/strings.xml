@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hasaki</string>
+    <string name="confirm_del">确认删除</string>
+    <string name="setting_signature">修改个性签名</string>
+</resources>
